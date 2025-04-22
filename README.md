@@ -7,9 +7,8 @@ This repository organizes each daily assignment into its own folder. Click a tas
    - *Notebook:* Task1_DataPreprocessing.ipynb
 
 <!-- Future tasks will be added here: -->
-2. *Task2: …*
-   - *Data file:* Task2_… .csv
-   - *Notebook:* Task2_….ipynb
+2. *Task2: Data Visualization and Storytelling*
+   - *Data file:* Dashboard_pic
 
 3. *Task3: …*
    - *Data file:* Task3_… .csv
