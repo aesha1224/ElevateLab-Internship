@@ -4,7 +4,7 @@
 
 ## 🌟 Objective
 
-To master the art of **data visualization and storytelling** using Power BI by transforming raw e-commerce sales data into insightful visual reports that highlight business performance, customer behavior, and sales trends.
+To master the art of **data_visualization_and_storytelling** using Power BI by transforming raw e-commerce sales data into insightful visual reports that highlight business performance, customer behavior, and sales trends.
 
 ---
 
