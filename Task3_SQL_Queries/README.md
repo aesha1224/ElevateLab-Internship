@@ -199,5 +199,11 @@ CREATE INDEX idx_orders_date      ON orders(order_date);
 2. **Execute queries**  
    ```
    mysql -u your_user -p < task3_sql_queries.sql
+
    ```
+   ---
+
+## 🔗 Connect with Me
+
+- [LinkedIn Profile](https://www.linkedin.com/in/aeshaprajapati12/)
 
