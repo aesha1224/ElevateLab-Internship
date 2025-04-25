@@ -13,7 +13,7 @@ This repository organizes each daily assignment into its own folder. Click a tas
    - schemas_and_data.sql
    - task3_sql_queries.sql
 
-4. *[Task4: Dashboard Design](Task4_Dashboard_Design/)*
+4. *[Task4: Dashboard Design](Task_4_Dashboard_Design/)*
    - pic.png
    - PowerBI_Dashboard_PPT.pptx
 
