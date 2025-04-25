@@ -72,7 +72,7 @@ Task4_Dashboard_Design/
 
 8. **Export & Share**  
    - Export to **PDF or PPT**  
-   - Add visuals and summaries in `Task4_Summary.pptx`
+   - Add visuals and summaries in `PowerBI_Dashboard_PPT.pptx`
 
 9. **Summary Presentation Includes**  
    - Dashboard overview and design choices  
