@@ -14,6 +14,8 @@ Dashboard_Design/
 ├── PowerBI_Dashboard_PPT.pptx # PowerPoint presentation with dashboard + interview Q&A
 ├── README.md                             # Project documentation file
 
+----
+
 📊 Dashboard Features
 Main KPIs Displayed:
 
@@ -21,6 +23,8 @@ Main KPIs Displayed:
 📦 Sales Quantit
 💵 Sales Amount
 🔁 Return Amount
+
+---
 
 Visual Highlights:
 Net Profit Trend (Line Chart)
@@ -34,6 +38,8 @@ Interactive Filters (Slicers):
 🛍️ Store & Category
 📺 Channel
 
+---
+
 📌 Power BI Interview Topics Covered
 The included presentation answers common Power BI interview questions:
 
@@ -44,6 +50,8 @@ Power BI vs Tableau
 How to Make a Dashboard Interactive
 Handling Large Datasets in Dashboard
 Chart Types for Trend Analysis
+
+---
 
 ⚙️ Tools & Dataset
 Tool Used: Power BI Desktop
@@ -57,12 +65,16 @@ Strongest Region: Maharashtra
 YoY Trends show growth in Electronics and Furniture in later quarters.
 Harivansh & Madhav identified as top customers.
 
+---
+
 💡 Features & Best Practices
 📌 Use of DAX Measures for KPI calculations.
 🧠 Interactive slicers and drilldowns for deep data exploration.
 🎨 Elegant visual theme with dark background and vibrant charts.
 🔎 Bookmarks and filters for quarter-wise analysis.
 ✨ Tooltips and labels added for accessibility and clarity.
+
+---
 
 📽️ Presentation Overview
 File: PowerBI_Dashboard_PPT.pptx
