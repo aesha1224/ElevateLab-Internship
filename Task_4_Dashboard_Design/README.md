@@ -1,113 +1,110 @@
-# 🛍️ E-Commerce Power BI Dashboard – Interview Project
 
-![E‑Commerce Dashboard](./pic.png)
 
-This project features a professional e-commerce sales dashboard built in Power BI and includes an interview-focused presentation. It demonstrates key metrics, interactive visualizations, and advanced reporting techniques, making it ideal for job interviews and analytics portfolios.
+# Task 4: Dashboard Design – Contoso Report
+
+![Contoso Dashboard](./pic.png)
+
+**Objective**: Design an interactive sales performance dashboard for Contoso that delivers business insights across geographies, product brands, and time periods using Power BI.
 
 ---
 
-## 📁 Project Structure
-
+## 📁 File Structure
 ```plaintext
-Dashboard_Design/
-├── pic.png                               # Snapshot of the Power BI Dashboard
-├── PowerBI_Dashboard_PPT.pptx # PowerPoint presentation with dashboard + interview Q&A
-├── README.md                             # Project documentation file
+Task4_Dashboard_Design/
+├── README.md                 # This file
+├── pic.png                   # Screenshot of the finished dashboard
+├── PowerBI_Dashboard_PPT.pptx        # PPT summary of dashboard insights
+```  
 
-🛠️ Tools & Data
-Tool Used: Power BI Desktop
+---
 
-Dataset: Contoso Sales Dataset (includes Region, Country, Net Profit, Sales, Cost of Goods, Return Amount, Discount, Category, Product Brand, Time hierarchy)
+## 🧰 Tools & Data
+- **Tool**: Power BI Desktop  
+- **Dataset**: `ContosoSales.csv` (includes Date, Product, Category, Brand, Store, Region, Sales Amount, Cost, Profit, Discount, Quantity)
 
-🪜 Implementation Steps
-Data Import
+---
 
-In Power BI Desktop: Home → Get Data → Excel
+## 🪜 Implementation Steps
 
-Load and review tables like Sales, Product, Geography, Calendar.
+1. **Get Data**  
+   - Load `ContosoSales.csv` in Power BI via **Home → Get Data → CSV**  
+   - Validate columns: Date, Amounts, Profit, Region, Brand, etc.
 
-Data Cleaning
+2. **Data Preparation**  
+   - Use **Power Query Editor** to:  
+     - Remove nulls/blanks  
+     - Ensure proper data types (e.g. Date, Currency)  
+     - Rename columns for clarity  
+     - Close & Apply
 
-Use Power Query Editor:
+3. **Create DAX Measures**  
+   ```DAX
+   Sales Quantity = SUM('SalesData'[Sales Quantity])
+   Discount Quantity = SUM('SalesData'[Discount Quantity])
+   Net Quantity = SUM('SalesData'[Net Quantity])
+   Sales Amount = SUM('SalesData'[Sales Amount])
+   Discount Amount = SUM('SalesData'[Discount Amount])
+   Return Amount = SUM('SalesData'[Return Amount])
+   Cost of Goods = SUM('SalesData'[Cost Of Goods])
+   Net Profit = SUM('SalesData'[Net Profit])
+   ```
 
-Remove nulls, errors, and duplicates.
+4. **Design Layout**  
+   - **Header**: Add "Contoso Report" with logo  
+   - **KPIs**: Show high-level metrics in cards:  
+     - Sales Quantity, Net Profit, Net Quantity, Return Amount, etc.
 
-Rename columns for clarity.
+5. **Visuals Added**  
+   - **Net Profit Running Total by Date Hierarchy**:  
+     - Combo chart (Column + Line) with YOY %  
+   - **Net Profit by Quarter**: Clustered column chart  
+   - **Year over Year Net Profit by Product Brand**: Waterfall chart (growth by brand)  
+   - **Geography & Store Details**: Table showing breakdown by region/country  
 
-Create relationships between tables using primary keys.
+6. **Interactivity & Filters**  
+   - Slicers for: Year, Channel, City, State, Region, Store, SubCategory, Category  
+   - Dynamic tooltips and labels for clear storytelling
 
-DAX Measures
+7. **Styling & Theme**  
+   - Professional theme with **light background + vibrant accent colors**  
+   - Rounded cards, tooltips, shadows, and clear typography  
+   - Consistent bar and label formatting
 
-DAX
-Copy
-Edit
-Total Sales = SUM('Sales'[SalesAmount])
-Total Profit = SUM('Sales'[NetProfit])
-Total Quantity = SUM('Sales'[SalesQuantity])
-YOY Net Profit % = DIVIDE([Total Profit] - [PY Net Profit], [PY Net Profit])
-Additional measures: Cost of Goods, Return Amount, Discount, Order Count, Net Quantity.
+8. **Export & Share**  
+   - Export to **PDF or PPT**  
+   - Add visuals and summaries in `Task4_Summary.pptx`
 
-Dashboard Design
+9. **Summary Presentation Includes**  
+   - Dashboard overview and design choices  
+   - Explanation of each KPI and chart  
+   - Insights by region, brand, and quarter  
+   - Recommendations based on performance trends
 
-KPI Cards:
+---
 
-Sales Quantity, Net Quantity, Net Profit, Sales Amount, Cost of Goods, Return Amount, Discount Amount.
+## 🎯 Key Insights from the Dashboard
 
-Charts:
+- **Quarterly Growth**: Net Profit increased from $1.37B (Q1) to $1.78B (Q4)  
+- **Brand Performance**: Contoso brand alone contributed $0.11B profit  
+- **Top Countries**:  
+  - 🇺🇸 United States: Highest profit – $1.01B  
+  - 🇬🇧 United Kingdom: $445M  
+  - Others: Switzerland, Thailand, Syria contribute significantly  
+- **Running Profit Analysis**: YOY profit % fluctuates, with August 2009 showing +4.9% gain  
+- **Order Insights**: Over **13.6M units sold**, **8.5M orders**, and **$1.77B net profit**  
 
-Net Profit Running Total by Date Hierarchy: Combo chart (column + line) with YOY %.
+---
 
-Quarter-wise Net Profit Running Total: Bar chart.
+## ✅ Best Practices Followed
 
-Year Over Year Net Profit by Product Brand: Waterfall chart.
+- **Clear KPI Cards** for executive overview  
+- **Hierarchical Drilldowns** via Date and Region  
+- **Multiple Slicers** for dynamic filtering  
+- **Balanced Layout** with performance-focused visuals  
+- **Readable Fonts** and tooltips for data storytelling
 
-Geography Table: Table visual with Region, Country, Total Sales, Expenses, Net Profit, Quantity & Orders.
+---
 
-Slicers:
-
-Year, Channel, City, State/Province, Region/Country, Store, Subcategory, Category.
-
-Formatting & Theme
-
-Elegant light theme with teal, gray, and black tones.
-
-Rounded visuals, modern font, and tooltips for clarity.
-
-Consistent alignment and spacing for aesthetics.
-
-Publishing & Summary
-
-Exported dashboard image (pic.png)
-
-Summary PowerPoint (PowerBI_Dashboard_PPT.pptx) includes:
-
-Overview of visuals
-
-Key findings
-
-Business recommendations
-
-💡 Key Insights
-Quarter 4 has the highest Net Profit at $1.78bn.
-
-United States leads with the highest sales and profit.
-
-Contoso brand generated $0.11bn Net Profit, contributing significantly to total growth.
-
-YOY Net Profit % fluctuated, showing areas needing improvement.
-
-Net Quantity: Over 13.5M units sold.
-
-Order Count: Surpassed 8.5M globally.
-
-✅ Best Practices Followed
-Effective use of KPI Cards for summary stats.
-
-Trend analysis with time-series visuals.
-
-Slicers for regional and product-level filtering.
-
-Clear, intuitive visual hierarchy and color coding.
-
-Responsive layout and professional theme.
-
+📤 **Deliverables**  
+- Dashboard Screenshot: `pic.png`  
+- Summary Slides: `PowerBI_Dashboard_PPT.pptx`
