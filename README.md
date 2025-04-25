@@ -13,4 +13,8 @@ This repository organizes each daily assignment into its own folder. Click a tas
    - schemas_and_data.sql
    - task3_sql_queries.sql
 
+4. *[Task4: Dashboard Design](Task4_Dashboard_Design/)*
+   - pic.png
+   - PowerBI_Dashboard_PPT.pptx
+
 > *Note:* Each task folder contains exactly one dataset CSV named TaskX_<ShortTitle>.csv and one Jupyter notebook TaskX_<ShortTitle>.ipynb. Ensure no additional CSV files are present.
