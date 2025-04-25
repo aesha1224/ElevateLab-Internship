@@ -14,7 +14,5 @@ Dashboard_Design/
 ├── PowerBI_Dashboard_PPT.pptx # PowerPoint presentation with dashboard + interview Q&A
 ├── README.md                             # Project documentation file
 
-----
-
 
 
