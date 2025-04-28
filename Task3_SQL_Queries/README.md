@@ -9,7 +9,7 @@ Use SQL to extract, manipulate, and analyze e-commerce sales data, demonstrating
 - Aggregate functions (`SUM`, `AVG`)
 - Views
 - Indexing
-
+  
 ---
 
 ## 📁 File Structure
