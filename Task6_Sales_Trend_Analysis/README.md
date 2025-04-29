@@ -5,11 +5,11 @@ This project involves analyzing sales data using SQL to identify key sales trend
 ---
 
 ## 📁 File Structure
-
-```plaintext
+plaintext
 Task6_Sales_Trend_Analysis/
-├── README.md                  # This file
-├── sales_trend.sql            # SQL queries for trend analysis
+├── README.md
+├── sales_trend.sql            # SQL script with all queries
+
 
 ---
 
