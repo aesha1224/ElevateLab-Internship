@@ -3,7 +3,6 @@ plaintext
 Task6_Sales_Trend_Analysis/
 ├── README.md                  # This file
 ├── sales_trend.sql            # SQL queries for trend analysis
-
 ---
 
 ## ✅ SQL Script (sales_trend.sql)
