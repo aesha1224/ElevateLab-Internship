@@ -99,3 +99,7 @@ ORDER BY year_month;
    ➤ To prevent mixing data across years with the same month (e.g., Jan 2023 vs Jan 2024).
 
 ---
+
+## 🔗 Connect with Me
+
+- [LinkedIn Profile](https://www.linkedin.com/in/aeshaprajapati12/)
