@@ -1,8 +1,15 @@
+# 📊 Task6: Sales Trend Analysis
+
+This project involves analyzing sales data using SQL to identify key sales trends such as monthly performance, top-selling products, and regional sales distribution.
+
+---
+
 ## 📁 File Structure
-plaintext
+
+```plaintext
 Task6_Sales_Trend_Analysis/
-├── README.md
-├── sales_trend.sql            # SQL script with all queries
+├── README.md                  # This file
+├── sales_trend.sql            # SQL queries for trend analysis
 
 ---
 
