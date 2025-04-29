@@ -1,9 +1,8 @@
 ## 📁 File Structure
 plaintext
 Task6_Sales_Trend_Analysis/
-├── README.md
-├── sales_trend.sql            # SQL script with all queries
-
+├── README.md                  # This file
+├── sales_trend.sql            # SQL queries for trend analysis
 
 ---
 
