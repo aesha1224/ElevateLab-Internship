@@ -69,4 +69,7 @@ Sample entries include items like Laptops, Smartphones, Tablets, etc.
 - Understand integration of `sqlite3`, `pandas`, and `matplotlib`
 
 ---
+## 🔗 Connect with Me
+
+- [LinkedIn Profile](https://www.linkedin.com/in/aeshaprajapati12/)
 
