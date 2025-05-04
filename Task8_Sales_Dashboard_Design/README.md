@@ -89,3 +89,10 @@ ElevateLab-Internship/
 - Insight Summary (included above)
 
 ---
+## 🔗 Connect with Me
+
+- [LinkedIn Profile](https://www.linkedin.com/in/aeshaprajapati12/)
+
+
+
+---
